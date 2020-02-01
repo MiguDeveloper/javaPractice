@@ -40,12 +40,12 @@ public class AppStreams {
         // en el orElse: pudes devolver un null o new User(10, "Usuario por defecto")
         User user = users.stream()
                 .filter(user1 -> "ddd".equals(user1.getNombre()))
-                .findFirst().orElse(new User(10, "Usuario por defecto") );
+                .findFirst().orElse(new User(10, "Usuario por defecto"));
 
         Optional<User> optionalUser = Optional.ofNullable(user);
-        if (optionalUser.isPresent()){
+        if (optionalUser.isPresent()) {
             System.out.println(user.getId() + " " + user.getNombre());
-        }else{
+        } else {
             System.out.println("Objeto es null");
         }
 
@@ -70,6 +70,19 @@ public class AppStreams {
                 .peek(user1 -> user1.setNombre(user1.getNombre().concat(" Chin-xay")))
                 .collect(Collectors.toList());
         lstUser.stream().forEach(user1 -> System.out.println(user1.getNombre()));
+
+        // Es similar a foreach pero no es una accion final
+        System.out.println("|---------------- Count ------------------|");
+        setUpUser();
+        Long cantFiltrados = users.stream()
+                .filter(user1 -> user1.getId() < 6)
+                .count();
+
+        System.out.println(cantFiltrados);
+
+        System.out.println("|---------------- Skip & Limit ----------|");
+        List<String> abc = Arrays.asList("a","b","c","d","e","f","g","h","i","j");
+
     }
 
     private static void setUpUser() {
