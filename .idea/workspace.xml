@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9044949-e6eb-4d7c-80d0-0aea1887d4de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/tuna/highOrderFunctions/HighOrderFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/tuna/highOrderFunctions/ISumar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/tuna/matriz/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/tuna/matriz/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pe/tuna/streams/AppStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/tuna/streams/AppStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/tuna/matriz/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/tuna/matriz/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/tuna/streams/AppStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/tuna/streams/AppStreams.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,26 +54,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.AppStreams">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.tuna.matriz.App" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pe.tuna.matriz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pe.tuna.lambdas.AppLambda" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pe.tuna.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HighOrderFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.tuna.highOrderFunctions.HighOrderFunctions" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.tuna.highOrderFunctions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReferenciaMetodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.tuna.referenciaMetodos.ReferenciaMetodo" />
       <module name="javaPractice" />
@@ -117,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.AppStreams" />
+        <item itemvalue="Application.HighOrderFunctions" />
         <item itemvalue="Application.AppOptional" />
         <item itemvalue="Application.ReferenciaMetodo" />
-        <item itemvalue="Application.AppLambda" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +146,8 @@
       <workItem from="1580421665978" duration="2131000" />
       <workItem from="1580485942916" duration="6055000" />
       <workItem from="1580521513141" duration="1894000" />
+      <workItem from="1580607494012" duration="319000" />
+      <workItem from="1580741746560" duration="19641000" />
     </task>
     <servers />
   </component>
@@ -152,30 +159,30 @@
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1743" y="115" key="#Project_Structure/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580314760789" />
-    <state x="773" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1580488177249">
+    <state x="773" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1580762173805">
       <screen x="0" y="23" width="1280" height="745" />
     </state>
-    <state x="773" y="150" key="#com.intellij.ide.util.MemberChooser/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580488177249" />
-    <state width="1878" height="264" key="GridCell.Tab.0.bottom" timestamp="1580527378021">
+    <state x="773" y="150" key="#com.intellij.ide.util.MemberChooser/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580762173805" />
+    <state width="1878" height="264" key="GridCell.Tab.0.bottom" timestamp="1580770797401">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="357" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.745@0.23.1280.745" timestamp="1580252014254" />
-    <state width="1878" height="264" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580527378021" />
-    <state width="1878" height="264" key="GridCell.Tab.0.center" timestamp="1580527378019">
+    <state width="1878" height="264" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580770797401" />
+    <state width="1878" height="264" key="GridCell.Tab.0.center" timestamp="1580770797400">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="357" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.745@0.23.1280.745" timestamp="1580252014253" />
-    <state width="1878" height="264" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580527378019" />
-    <state width="1878" height="264" key="GridCell.Tab.0.left" timestamp="1580527378016">
+    <state width="1878" height="264" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580770797400" />
+    <state width="1878" height="264" key="GridCell.Tab.0.left" timestamp="1580770797400">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="357" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.745@0.23.1280.745" timestamp="1580252014253" />
-    <state width="1878" height="264" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580527378016" />
-    <state width="1878" height="264" key="GridCell.Tab.0.right" timestamp="1580527378020">
+    <state width="1878" height="264" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580770797400" />
+    <state width="1878" height="264" key="GridCell.Tab.0.right" timestamp="1580770797400">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="357" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.745@0.23.1280.745" timestamp="1580252014254" />
-    <state width="1878" height="264" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580527378020" />
+    <state width="1878" height="264" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580770797400" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1580252014256">
       <screen x="0" y="23" width="1280" height="745" />
     </state>
@@ -196,15 +203,19 @@
     </state>
     <state width="1878" height="357" key="GridCell.Tab.1.right/1280.23.1920.1057/0.23.1280.745@0.23.1280.745" timestamp="1580252014256" />
     <state width="1878" height="357" key="GridCell.Tab.1.right/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580243925698" />
-    <state x="1503" y="109" key="SettingsEditor" timestamp="1580314728397">
+    <state x="1663" y="92" key="SettingsEditor" timestamp="1580748043514">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state x="1503" y="109" key="SettingsEditor/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580314728397" />
-    <state x="1788" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580521882531">
-      <screen x="1280" y="23" width="1920" height="1057" />
+    <state x="1663" y="92" key="SettingsEditor/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580748043514" />
+    <state x="638" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1580741870936">
+      <screen x="0" y="23" width="1280" height="745" />
     </state>
     <state x="638" y="228" key="com.intellij.ide.util.TipDialog/1280.23.1920.1057/0.23.1280.745@0.23.1280.745" timestamp="1580421939588" />
-    <state x="1788" y="193" key="com.intellij.ide.util.TipDialog/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580521882531" />
+    <state x="638" y="228" key="com.intellij.ide.util.TipDialog/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580741870936" />
+    <state x="1906" y="308" width="667" height="486" key="find.popup" timestamp="1580746481371">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1906" y="308" width="667" height="486" key="find.popup/1280.23.1920.1057/0.23.1280.745@1280.23.1920.1057" timestamp="1580746481371" />
     <state x="1645" y="159" key="new project wizard" timestamp="1580245064011">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>

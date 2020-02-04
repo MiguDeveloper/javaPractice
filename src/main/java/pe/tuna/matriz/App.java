@@ -3,6 +3,8 @@ package pe.tuna.matriz;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class App {
 
@@ -11,8 +13,9 @@ public class App {
 
 
         //List<List<Integer>> array2x2 = Arrays.asList(Arrays.asList(1, 2), Arrays.asList(3, 4));
+        List<List<Integer>> array3x3 = Arrays.asList(Arrays.asList(1, 2), Arrays.asList(3, 4));
         //List<List<Integer>> array3x3 = Arrays.asList(Arrays.asList(1, 2, 3), Arrays.asList(4, 5, 6), Arrays.asList(7, 8, 9));
-        List<List<Integer>> array3x3 = Arrays.asList(Arrays.asList(1, 2, 3), Arrays.asList(3, 4, 3), Arrays.asList(3, 4, 3), Arrays.asList(3, 4, 3));
+        //List<List<Integer>> array3x3 = Arrays.asList(Arrays.asList(1, 2, 3), Arrays.asList(3, 4, 3), Arrays.asList(3, 4, 3), Arrays.asList(3, 4, 3));
         //List<List<Integer>> array4x4 = Arrays.asList(Arrays.asList(1, 2, 3, 4), Arrays.asList(5, 6, 7, 8), Arrays.asList(9, 10, 11, 12), Arrays.asList(13, 14, 15, 16));
 
         List<List<Integer>> mainArray = new ArrayList<List<Integer>>();
@@ -31,6 +34,14 @@ public class App {
         if (error) {
             System.out.println("Error!!!");
         } else {
+            // Con funcion lambda
+            List<Integer> listCoordenadas = array3x3.stream().flatMap(coordenadas -> coordenadas.stream())
+                    .collect(Collectors.toList());
+
+            listCoordenadas.stream().forEach(e -> System.out.println(e));
+
+
+            // Sin lambda
             for (int j = array3x3.size() - 1; j >= 0; j--) {
                 List<Integer> contieneItems = new ArrayList<Integer>();
                 for (int i = 0; i < array3x3.size(); i++) {
