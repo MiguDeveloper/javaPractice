@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9044949-e6eb-4d7c-80d0-0aea1887d4de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/tuna/highOrderFunctions/HighOrderFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/tuna/highOrderFunctions/ISumar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/tuna/matriz/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/tuna/matriz/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/tuna/streams/AppStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/tuna/streams/AppStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pe/tuna/matriz/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/tuna/matriz/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pe/tuna/streams/AppStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/tuna/streams/AppStreams.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +141,7 @@
       <workItem from="1580521513141" duration="1894000" />
       <workItem from="1580607494012" duration="319000" />
       <workItem from="1580741746560" duration="19641000" />
+      <workItem from="1580827308350" duration="1089000" />
     </task>
     <servers />
   </component>
